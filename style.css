@@ -33,7 +33,6 @@ nav li , footer li{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: solid 2px black;
     text-align: center;
 }
 .article1 img, .article3 img, .article4 img, .article5 img {
@@ -48,11 +47,22 @@ nav li , footer li{
     width: 44%
 }
 
-.line1, .line2 {
+.line1, .line2, {
     display: flex;
     flex-direction: row;
 }
+.block1, .block4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.block3 {
+    display: flex;
 
+}
+
+
+}
 .block2 {
     display: flex;
 
