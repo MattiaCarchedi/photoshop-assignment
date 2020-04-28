@@ -1,0 +1,44 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 210px;
+    
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 20px;
+    font-weight: 400 bolder; 
+    font-size: 14px;
+    flex-wrap: wrap;
+
+}
+
+.foto1 {
+
+}
+
+
+.article1 {
+    background-color:#f2f2f2;
+    padding: 150px 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.article3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.block2 {
+    display: flex;
+
+}
