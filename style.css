@@ -48,9 +48,6 @@ nav li , footer li{
     padding: 0 80px;
 }
 
-
-
-}
 .block1, .block4 {
     display: flex;
     flex-wrap: wrap;
