@@ -1,0 +1,65 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    border: solid 1px black;
+}
+
+header {
+    background-image: url(/assets/Layer\ 7.png);
+    height: 670px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 40px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    background-color: #f2f2f2;
+}
+
+.article3 , .article4, .article5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+}
+
+.imagetriche {
+    max-width: 100%
+}
+
+.article3 p, .article4 p, .article5 p{
+    padding: 0 80px;
+}
+
+.block2, .line1 {
+    display: flex;
+}
+
+.line2 {
+    display: flex;
+}
+
+.article1 img, .article3 img, .article4 img, .article5 img, .twitter img{
+    align-self: center;
+    margin-top: 40px;
+}
+

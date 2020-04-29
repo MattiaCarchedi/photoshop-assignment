@@ -1,4 +1,5 @@
 body {
+
     font-family: 'Lato', sans-serif;
 }
 
@@ -6,9 +7,9 @@ body {
 
 header {
     background-image: url("assets/Layer\ 7.png");
-    height: 600px;
+    height: 670px;
+    background-repeat: no-repeat;
     background-size: 100%;
-    margin: 0;
     
 }
 
@@ -70,7 +71,7 @@ nav li , footer li{
 }
 
 .block2 {
-    width: 100%;
+    width: 100%
 }
 
 .twitter li {
