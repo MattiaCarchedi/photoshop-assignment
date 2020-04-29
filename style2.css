@@ -1,10 +1,12 @@
 body {
     font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-* {
-    border: solid 1px black;
-}
+/** {*/
+/*    border: solid 1px black;*/
+/*}*/
 
 header {
     background-image: url(/assets/Layer\ 7.png);
@@ -63,3 +65,43 @@ nav {
     margin-top: 40px;
 }
 
+
+
+
+
+/** **/
+
+.content-wrapper {
+    display: flex;
+}
+
+.content-wrapper > img {
+    width: 67%;
+}
+
+.content-frame {
+    width: 33%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.content-frame > div {
+    padding: 10px;
+
+    flex-grow: 1;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+    text-align: center;
+}
+
+
+.content-frame__bottom-image {
+    width: 100%;
+}
