@@ -1,15 +1,21 @@
 body {
     font-family: 'Lato', sans-serif;
+}
 
+
+
+header {
+    background-image: url("assets/Layer\ 7.png");
+    height: 600px;
+    background-size: 100%;
+    margin: 0;
+    
 }
 
 nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    left: 210px;
-    
     
 }
 
@@ -25,11 +31,14 @@ nav li , footer li{
     position: relative;
 }
 
-.article1 {
+.article1, .twitter {
     background-color:#f2f2f2;
-    padding: 150px 300px;
-    width: 100%;
+    padding: 200px 600px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .article3, .article4, .article5, .article1 {
@@ -37,9 +46,9 @@ nav li , footer li{
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    width: 50%
+    width: 100%
 }
-.article1 img, .article3 img, .article4 img, .article5 img {
+.article1 img, .article3 img, .article4 img, .article5 img, .twitter img{
     align-self: center;
     margin-top: 40px;
 }
@@ -60,4 +69,11 @@ nav li , footer li{
     display: flex;
 }
 
+.block2 {
+    width: 100%;
+}
 
+.twitter li {
+    display: inline-block;
+    margin: 0 20px;
+}
