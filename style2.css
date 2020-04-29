@@ -2,9 +2,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-* {
-    border: solid 1px black;
-}
+
 
 header {
     background-image: url(/assets/Layer\ 7.png);
@@ -13,8 +11,8 @@ header {
     background-size: 100%;
 }
 
-nav li {
-    display: inline-block;
+nav a {
+    
     margin: 40px 20px;
 }
 
@@ -24,42 +22,69 @@ nav {
     align-items: center;
 }
 
-.article1 {
+.article1, .twitter, .discover {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px;
-    background-color: #f2f2f2;
+    padding: 100px 300px;
+    
 }
 
-.article3 , .article4, .article5 {
+.content-wrapper {
+    display: flex;
+}
+
+.content-wrapper > img {
+    width: 67%
+}
+.content-frame {
+    width: 33%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+}
+
+.frame {
+    padding: 40px;
+    display: flex;
     align-items: center;
-    width: 50%;
+    text-align: center; 
+    flex-direction: column;
+    height: 51%;
+
+}
+
+.content-frame_bottom-image {
+   width: 100%;
+}
+
+.twitter ul > li {
+    display: inline-block;
+    margin: 5px;
     text-align: center;
 }
 
-.imagetriche {
-    max-width: 100%
-}
-
-.article3 p, .article4 p, .article5 p{
-    padding: 0 80px;
-}
-
-.block2, .line1 {
+.big-content-wrapper {
     display: flex;
 }
+.block1, .block3,{
+   
+   
+    width: 33%
+}
 
-.line2 {
+footer , .article1{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f2f2f2 ;
 }
 
-.article1 img, .article3 img, .article4 img, .article5 img, .twitter img{
-    align-self: center;
-    margin-top: 40px;
+footer {
+    height: 300px;
 }
 
+li {
+    display: inline-block;
+    margin: 10px;
+}
